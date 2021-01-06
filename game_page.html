@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz - Game Page</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body onload = "displayQuestion()">
+<h4 id = "player1_name"></h4> <span id="player1_score"></span>
+<div class = "container">
+    <center>
+        <h2 style="color: white">Aayans Brain Testing Math Quiz !</h2>
+        <div id="output" class="col-lg-6">
+            <h2 id = "displayQuestion"></h2>
+        </div> 
+        <br>
+        <br>
+        <label>Please input your answer Below. ----><b style = "color: red">Make sure your answer is right!</b> <----</label>
+        <input id = "inputWord" type="text" class = "form-control" placeholder = "Enter answer here.">
+        <br>
+        <button id="sendButton" class = "btn btn-success" style = "width: 30%" onclick = "sendAnswer()">Send your answer!!</button>
+    </center>
+</div>
+<script src="game_page.js"></script>
+</body>
