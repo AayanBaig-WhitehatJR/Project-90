@@ -17,6 +17,11 @@ body
 	display: inline-block;
 	margin-left:20px;
 }
+#player2_name 
+{
+	display: inline-block;
+	margin-left:20px;
+}
 #question
 {
 	width: 60%;
